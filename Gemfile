@@ -33,6 +33,19 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'therubyracer'
+gem 'devise'
+gem 'omniauth'
+gem 'omniauth-digitalocean'
+
+gem 'omniauth-slack'
+
+gem 'bcrypt',         '3.1.11'
+gem 'will_paginate',           '3.1.5'
+gem 'bootstrap-will_paginate', '0.0.10'
+gem 'bootstrap-sass', '3.3.6'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
